@@ -19,6 +19,8 @@ Relationships:
 - Customer - Contract (1-n): A customer can have multiple contracts (CustomerID in Contract is a FK).
 - Contract - Customer (n-1): A contract belongs to one customer (CustomerID in Contract is a FK).
 
+---
+
 ERD (Entity Relationship Diagram):
 
 ```mermaid
