@@ -1,10 +1,10 @@
-Entities:
+Relational Database Design
 
-- Member: MemberID, Name, GroupID (FK to Group)
-- Group: GroupID, GroupName, TeamLeaderID (FK to Member)
-- Job: JobID, Description, JobCost, MemberID (FK to Member)
-- Contract: ContractID, ContractDate, LicensePlate, TotalCost, ExpectedDeliveryDate, ActualDeliveryDate, CustomerID (FK to Customer)
-- Customer: CustomerID, Name, Address, PhoneNumber
+- Member: **MemberID**, Name, **GroupID** (FK to Group)
+- Group: **GroupID**, GroupName, **TeamLeaderID** (FK to Member)
+- Job: **JobID**, Description, JobCost, **MemberID** (FK to Member)
+- Contract: **ContractID**, ContractDate, LicensePlate, TotalCost, ExpectedDeliveryDate, ActualDeliveryDate, **CustomerID** (FK to Customer)
+- Customer: **CustomerID**, Name, Address, PhoneNumber
 
 ---
 
