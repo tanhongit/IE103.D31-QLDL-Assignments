@@ -1,14 +1,14 @@
 Relational Database Design:
 
-- CUSTOMER(CustomerID, Name, PhoneNumber, Address)						
-- DEALER(DealerID, Location)								
-- VEHICLEINFO(VehicleID, DealerID, Manufacturer, EngineCapacity, VehicleType, NumberOfDoors, Color, FrameSize)								
-- ADMINISTRATIVE_STAFF(StaffID, Name, DealerID, EducationLevel, Position)								
-- TECHNICIAN(TechnicianID, DealerID, YearsOfExperience, Name, Position, Level)								
-- CONTRACT(ContractID, Salesperson, Accountant, ContractDate, TotalAmount, DiscountRate, IsPaid, FirstPayment, SecondPayment, WarrantyPeriod, DealerID)								
-- PAYMENT_SLIP(SlipID, ContractID, DealerID, CustomerID, PaymentDate, Receiver, Amount)						
-- WARRANTY_SLIP(WarrantyID, CustomerID, DealerID, Technician, RepairCost, Reason)							
-- WARRANTY_DETAIL(WarrantyDetailID, WarrantyID, PartName)
+- CUSTOMER (CustomerID, Name, PhoneNumber, Address)					
+- DEALER (DealerID, Location)								
+- VEHICLEINFO (VehicleID, DealerID, Manufacturer, EngineCapacity, VehicleType, NumberOfDoors, Color, FrameSize)						
+- ADMINISTRATIVE_STAFF (StaffID, Name, DealerID, EducationLevel, Position)								
+- TECHNICIAN (TechnicianID, DealerID, YearsOfExperience, Name, Position, Level)								
+- CONTRACT (ContractID, Salesperson, Accountant, ContractDate, TotalAmount, DiscountRate, IsPaid, FirstPayment, SecondPayment, WarrantyPeriod, DealerID)								
+- PAYMENT_SLIP (SlipID, ContractID, DealerID, CustomerID, PaymentDate, Receiver, Amount)						
+- WARRANTY_SLIP (WarrantyID, CustomerID, DealerID, Technician, RepairCost, Reason)							
+- WARRANTY_DETAIL (WarrantyDetailID, WarrantyID, PartName)
 
 
 Relationships:
